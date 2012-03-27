@@ -1,10 +1,10 @@
 {
   "name": "UnBookmark",
-  "version": "1.1",
-  "description": "You can remove your bookmarks faster!",
+  "version": "1.2",
+  "description": "Remove your bookmarks faster using keyboard shortcut (CTRL+D) or icon in the address bar!",
   "background_page": "background.html",
   "page_action": {
-    "default_icon": "icon48.png"
+    "default_icon": "icon128.png"
   },
   "permissions": [
     "bookmarks",
