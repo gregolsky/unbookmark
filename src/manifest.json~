@@ -1,0 +1,21 @@
+{
+  "name": "UnBookmark",
+  "version": "1.1",
+  "description": "You can remove your bookmarks faster!",
+  "background_page": "background.html",
+  "page_action": {
+    "default_icon": "icon48.png"
+  },
+  "permissions": [
+    "bookmarks",
+    "tabs"
+  ],
+  "icons": {"48": "icon48.png",
+          "128": "icon128.png" },
+  "content_scripts":
+    [{
+      "matches": ["http://*/*", "https://*/*"],
+      "css": [],
+      "js": ["jquery-1.7.2.min.js", "jquery.hotkeys.js", "content.js" ]
+    }]
+}
